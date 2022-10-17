@@ -52,8 +52,8 @@
   model = trainer()
   
   '''
-    model_name从HuggingFace的Model中选取一个，如果没有被HuggingFace官方收录的，则要带上模型作者的用户名，即：用户名/模型名
-    huggingface模型地址：https://huggingface.co/models
+      model_name从HuggingFace的Model中选取一个，如果没有被HuggingFace官方收录的，则要带上模型作者的用户名，即：用户名/模型名
+      huggingface模型地址：https://huggingface.co/models
   '''
   model.from_pretrained(model_name="IDEA-CCNL/Randeng-T5-77M")
   model.train(train_df=data[:1000], test_df=data[:500], batch_size=2, max_epochs=2,use_gpu=True)
