@@ -10,7 +10,7 @@
   pip install pytorch-lightning==1.6.5
 ```
 
-### 2. 给词造句
+### 2. 关键词造句
 
  [model_v3.0](https://drive.google.com/drive/folders/1TbpGhqanMCfyxoE8EEI8emcaaGCgiRcN?usp=sharing)
 
