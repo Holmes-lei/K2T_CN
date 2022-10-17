@@ -12,13 +12,13 @@
 
 ### 2. 给词造句
 
- [Fine-Tune后的Model](https://drive.google.com/drive/folders/1TbpGhqanMCfyxoE8EEI8emcaaGCgiRcN?usp=sharing)
+ [model_v3.0](https://drive.google.com/drive/folders/1TbpGhqanMCfyxoE8EEI8emcaaGCgiRcN?usp=sharing)
 
 ``` python
   from keytotext import trainer
   
   model = trainer()
-  model.load_model("./model", use_gpu = True)
+  model.load_model("./model_v3.0", use_gpu = True)
   
   # 关键词可以是任意个数
   keywords = ["天空", "山脉", "海洋"]
