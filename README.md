@@ -6,6 +6,7 @@
 
 ``` python
   pip install keytotext --upgrade
+  # 如果在windows环境下用pip install git-lfs
   sudo apt-get install git-lfs
   pip install pytorch-lightning==1.6.5
 ```
