@@ -18,7 +18,7 @@
   from keytotext import trainer
   
   model = trainer()
-  model.load_model("./model_v3.0", use_gpu = True)
+  model.load_model("./model", use_gpu = True)
   
   # 关键词可以是任意个数
   keywords = ["天空", "山脉", "海洋"]
