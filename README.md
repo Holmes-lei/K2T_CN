@@ -13,6 +13,8 @@
 
 ### 2. 给词造句
 
+ [model_v3.0](https://drive.google.com/drive/folders/1TbpGhqanMCfyxoE8EEI8emcaaGCgiRcN?usp=sharing)
+
 ``` python
   from keytotext import trainer
   
