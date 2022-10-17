@@ -1,6 +1,5 @@
 # K2T_CN
-中文受限制文本生成任务。该项目继承自@gagan3012的keytotext项目，但是采用了中文T5预训练模型。
-
+中文受限制文本生成任务。该项目继承自[gagan3012](https://github.com/gagan3012/keytotext)的keytotext项目，但是采用了中文T5预训练模型。
 ## 使用方法
 
 ### 1. 安装依赖包
