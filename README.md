@@ -21,9 +21,9 @@
   model = trainer()
   model.load_model("./model_v3.0", use_gpu = True)
   
-  # 关键词可以是任意个数
+  # 关键词可以是任意个数，use_gpu必须与上面一致
   keywords = ["天空", "山脉", "海洋"]
-  print(model.predict(keywords))
+  print(model.predict(keywords, use_gpu = True))
 ```
 
 ## 训练方法
