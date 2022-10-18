@@ -9,6 +9,7 @@
   # 如果在windows环境下用pip install git-lfs
   sudo apt-get install git-lfs
   pip install pytorch-lightning==1.6.5
+  pip install opencv-python
 ```
 
 ### 2. 关键词造句
