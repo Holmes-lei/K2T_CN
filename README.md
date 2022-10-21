@@ -14,7 +14,7 @@
 
 ### 2. 关键词造句
 
- [model_v3.0](https://drive.google.com/drive/folders/1TbpGhqanMCfyxoE8EEI8emcaaGCgiRcN?usp=sharing)
+ [model_v3.0](https://drive.google.com/drive/folders/1Ik-o_sZ5TUZEvU94fPmCC0JEGuSrPTo1?usp=sharing)
 
 ``` python
   from keytotext import trainer
