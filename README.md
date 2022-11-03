@@ -14,13 +14,13 @@
 
 ### 2. 关键词造句
 
- [model_v3.0](https://drive.google.com/drive/folders/1Ik-o_sZ5TUZEvU94fPmCC0JEGuSrPTo1?usp=sharing)
+ [model_v4.0](https://drive.google.com/drive/folders/1Ik-o_sZ5TUZEvU94fPmCC0JEGuSrPTo1?usp=sharing)
 
 ``` python
   from keytotext import trainer
   
   model = trainer()
-  model.load_model("./model_v3.0", use_gpu = True)
+  model.load_model("./model_v4.0", use_gpu = True)
   
   # 关键词可以是任意个数，use_gpu必须与上面一致
   keywords = ["天空", "山脉", "海洋"]
